@@ -1,6 +1,6 @@
 /*
 
-DESENVOLVIDO POR ALISSON GAIO - B2Finance
+DESENVOLVIDO POR ALISSON GAIO 
 Obrigatoriedade de preenchimento do campo Centro de Custo em Diversos documentos de marketing
 
 */
@@ -44,14 +44,14 @@ IF(
 			
 	IF (bExists > 0) THEN
         error := 990001;
-		error_message := 'B2F: Campo "Centro de Custo" deve ser preenchido nas contas de custo, despesa e receita.';
+		error_message := 'Campo "Centro de Custo" deve ser preenchido nas contas de custo, despesa e receita.';
 	END IF;
 
 END IF;
 
 /*
 
-DESENVOLVIDO POR ALISSON GAIO - B2Finance
+DESENVOLVIDO POR ALISSON GAIO 
 Obrigatoriedade de preenchimento do campo Projeto em Diversos documentos de marketing
 
 */
@@ -95,7 +95,7 @@ IF(
 			
 	IF (bExists > 0) THEN
         error := 990002;
-		error_message := 'B2F: Campo "Projeto" deve ser preenchido nas contas de custo, despesa e receita.';
+		error_message := 'Campo "Projeto" deve ser preenchido nas contas de custo, despesa e receita.';
 	END IF;
 
 END IF;
