@@ -101,4 +101,3 @@ error_message := 'O Campo de projeto deve ser preenchido';
 END IF;
 END IF;
 
-[SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: "TST_BLUE_STONE_1411"."SBO_SP_TRANSACTIONNOTIFICATION": line 88 col 2 (at pos 2533): U1000: line 1 col 54 (at pos 53)
