@@ -1,8 +1,3 @@
---Aviso de Duplicidade de NF Entrada / Recebimento / Devolução 
---Criado por: Flávia Schmidt
---Data: 21/01/2021
-
-
 IF (:object_type ='18' AND  (:transaction_type = 'U' OR :transaction_type = 'A')) AND :error = 0
 THEN
   	declare count1 int;
